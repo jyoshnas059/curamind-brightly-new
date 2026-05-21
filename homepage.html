@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CuraMind — Know your health. Find your care.</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon">🌿</span> CuraMind
+    </div>
+    <ul class="nav-links">
+      <li><a href="#" class="nav-link active" data-page="home">Features</a></li>
+      <li><a href="#" class="nav-link" data-page="dashboard">Dashboard</a></li>
+      <li><a href="#" class="nav-link" data-page="symptoms">Symptoms</a></li>
+      <li><a href="#" class="nav-link" data-page="wellness">Wellness</a></li>
+      <li><a href="#" class="nav-link" data-page="lifestyle">Lifestyle</a></li>
+      <li><a href="#" class="nav-link" data-page="community">Community</a></li>
+    </ul>
+    <div class="nav-auth">
+      <a href="#" class="btn-login">Login</a>
+      <a href="#" class="btn-signup">Sign up</a>
+    </div>
+  </nav>
+
+  <!-- ── PAGE: HOME ── -->
+  <section class="page active" id="page-home">
+    <div class="hero">
+      <p class="eyebrow">EVERYTHING IN ONE PLACE</p>
+      <h1 class="hero-title">Know your <em>health</em>.<br>Find your <em>care</em>.</h1>
+      <p class="hero-sub">Each feature is designed with intention — minimal taps, maximum care.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feat-icon">📊</div>
+        <span class="feat-num">01</span>
+        <h3>Health Dashboard</h3>
+        <p>BMI, hydration, calories & trends in one calm view.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">🔍</div>
+        <span class="feat-num">02</span>
+        <h3>Symptom Checker</h3>
+        <p>Describe how you feel — get AI-guided next steps.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">💊</div>
+        <span class="feat-num">03</span>
+        <h3>Medication Reminders</h3>
+        <p>Never miss a dose. Smart, gentle nudges.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">🧠</div>
+        <span class="feat-num">04</span>
+        <h3>Mental Wellness</h3>
+        <p>Mood, journaling, breathing & guided meditation.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">♿</div>
+        <span class="feat-num">05</span>
+        <h3>Simplified UI Mode</h3>
+        <p>Large fonts, voice nav. Designed for every age.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">🌐</div>
+        <span class="feat-num">06</span>
+        <h3>Multilingual</h3>
+        <p>Speak your language — text & voice.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">🏃</div>
+        <span class="feat-num">07</span>
+        <h3>Fitness Tracker</h3>
+        <p>Steps, workouts & wearable sync.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">🥗</div>
+        <span class="feat-num">08</span>
+        <h3>Nutrition Planner</h3>
+        <p>Log meals, get recipes that fit your goals.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">🌙</div>
+        <span class="feat-num">09</span>
+        <h3>Sleep Tracker</h3>
+        <p>Understand your nights. Wake up restored.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">👥</div>
+        <span class="feat-num">10</span>
+        <h3>Community</h3>
+        <p>Forums, peer support & motivational challenges.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">🔒</div>
+        <span class="feat-num">11</span>
+        <h3>Privacy & Security</h3>
+        <p>HIPAA-grade storage, role access, 2FA.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feat-icon">🗣️</div>
+        <span class="feat-num">12</span>
+        <h3>Voice Support</h3>
+        <p>Full voice navigation across all features.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PAGE: DASHBOARD ── -->
+  <section class="page" id="page-dashboard">
+    <div class="hero">
+      <p class="eyebrow">YOUR WELLNESS, TODAY</p>
+      <h1 class="hero-title">A <em>calm</em> view of your day.</h1>
+      <p class="hero-sub">Live vitals, gentle goals, and trends that respect your attention.</p>
+    </div>
+
+    <div class="vitals-grid">
+      <div class="vital-card">
+        <div class="vital-top">
+          <span class="vital-icon">🫀</span>
+          <span class="vital-label">Heart rate</span>
+        </div>
+        <div class="vital-value">72 <span class="vital-unit">bpm</span></div>
+        <div class="vital-sub">Resting · normal</div>
+      </div>
+      <div class="vital-card">
+        <div class="vital-top">
+          <span class="vital-icon">💧</span>
+          <span class="vital-label">Hydration</span>
+        </div>
+        <div class="vital-value">1.8 <span class="vital-unit">L</span></div>
+        <div class="vital-sub">of 2.5 L goal</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:72%"></div></div>
+      </div>
+      <div class="vital-card">
+        <div class="vital-top">
+          <span class="vital-icon">🔥</span>
+          <span class="vital-label">Calories</span>
+        </div>
+        <div class="vital-value">1,420 <span class="vital-unit">kcal</span></div>
+        <div class="vital-sub">burned today</div>
+      </div>
+      <div class="vital-card">
+        <div class="vital-top">
+          <span class="vital-icon">👣</span>
+          <span class="vital-label">Steps</span>
+        </div>
+        <div class="vital-value">8,234</div>
+        <div class="vital-sub">73% of daily goal</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:73%"></div></div>
+      </div>
+      <div class="vital-card">
+        <div class="vital-top">
+          <span class="vital-icon">📈</span>
+          <span class="vital-label">BMI</span>
+        </div>
+        <div class="vital-value">22.4</div>
+        <div class="vital-sub">Healthy range</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PAGE: SYMPTOMS ── -->
+  <section class="page" id="page-symptoms">
+    <div class="hero">
+      <p class="eyebrow">SYMPTOM CHECKER</p>
+      <h1 class="hero-title">Tell us how you <em>feel</em>.</h1>
+      <p class="hero-sub">Describe what you're experiencing and we'll guide you to gentle, sensible next steps.</p>
+    </div>
+
+    <div class="symptom-box">
+      <div class="privacy-tag">
+        <span>🔒</span> Private · not stored without consent
+      </div>
+      <textarea class="symptom-input" placeholder="I've had a dull headache since this morning, mostly behind my eyes..."></textarea>
+      <div class="common-symptoms">
+        <p class="common-label">COMMON</p>
+        <div class="symptom-tags">
+          <span class="sym-tag">Headache</span>
+          <span class="sym-tag">Fever</span>
+          <span class="sym-tag">Sore throat</span>
+          <span class="sym-tag">Fatigue</span>
+          <span class="sym-tag">Cough</span>
+          <span class="sym-tag">Stomach ache</span>
+          <span class="sym-tag">Anxiety</span>
+          <span class="sym-tag">Insomnia</span>
+        </div>
+      </div>
+      <button class="btn-guidance">Get guidance →</button>
+    </div>
+  </section>
+
+  <!-- ── PAGE: WELLNESS ── -->
+  <section class="page" id="page-wellness">
+    <div class="hero">
+      <p class="eyebrow">MENTAL WELLNESS</p>
+      <h1 class="hero-title">A quieter <em>mind</em>, every day.</h1>
+      <p class="hero-sub">Mood check-ins, journaling, breathing and guided meditation — designed to feel like a soft place to land.</p>
+    </div>
+
+    <div class="mood-card">
+      <p class="mood-label">TODAY'S MOOD</p>
+      <p class="mood-value">Calm &amp; focused 🍃</p>
+      <div class="mood-tags">
+        <span class="mood-tag active">Calm</span>
+        <span class="mood-tag">Joyful</span>
+        <span class="mood-tag">Tired</span>
+        <span class="mood-tag">Anxious</span>
+        <span class="mood-tag">Grateful</span>
+        <span class="mood-tag">Restless</span>
+      </div>
+    </div>
+
+    <div class="wellness-grid">
+      <div class="wellness-card">
+        <div class="w-top"><span class="w-icon">💨</span><span class="w-time">4 min</span></div>
+        <h3>Box breathing</h3>
+        <p>Inhale, hold, exhale, hold — gentle and slow.</p>
+      </div>
+      <div class="wellness-card">
+        <div class="w-top"><span class="w-icon">🧘</span><span class="w-time">10 min</span></div>
+        <h3>Body scan</h3>
+        <p>Soften tension from head to toe.</p>
+      </div>
+      <div class="wellness-card">
+        <div class="w-top"><span class="w-icon">📓</span><span class="w-time">5 min</span></div>
+        <h3>Gratitude journal</h3>
+        <p>Three small things, written kindly.</p>
+      </div>
+      <div class="wellness-card">
+        <div class="w-top"><span class="w-icon">💚</span><span class="w-time">8 min</span></div>
+        <h3>Loving kindness</h3>
+        <p>Offer warmth to yourself, then others.</p>
+      </div>
+      <div class="wellness-card">
+        <div class="w-top"><span class="w-icon">💊</span><span class="w-time">1 min</span></div>
+        <h3>Medication Reminders</h3>
+        <p>Gentle nudges to never miss a dose.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PAGE: LIFESTYLE ── -->
+  <section class="page" id="page-lifestyle">
+    <div class="hero">
+      <p class="eyebrow">LIFESTYLE</p>
+      <h1 class="hero-title">Move, eat, <em>rest</em> — in rhythm.</h1>
+      <p class="hero-sub">Track fitness, nutrition and sleep without the noise. Just the signals that matter to you.</p>
+    </div>
+
+    <div class="lifestyle-grid">
+      <div class="lifestyle-card">
+        <div class="lf-icon">🏃</div>
+        <p class="lf-category">FITNESS</p>
+        <div class="lf-value">8,234 steps</div>
+        <p class="lf-sub">73% of today's goal</p>
+      </div>
+      <div class="lifestyle-card">
+        <div class="lf-icon">🥗</div>
+        <p class="lf-category">NUTRITION</p>
+        <div class="lf-value">1,420 kcal</div>
+        <p class="lf-sub">Balanced · 92g protein</p>
+      </div>
+      <div class="lifestyle-card">
+        <div class="lf-icon">🌙</div>
+        <p class="lf-category">SLEEP</p>
+        <div class="lf-value">7h 42m</div>
+        <p class="lf-sub">Restful · 84 score</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PAGE: COMMUNITY ── -->
+  <section class="page" id="page-community">
+    <div class="hero">
+      <p class="eyebrow">COMMUNITY</p>
+      <h1 class="hero-title">You're not <em>alone</em>.</h1>
+      <p class="hero-sub">Real people, real care. Join forums, share progress, and lift each other up.</p>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-card">
+        <span class="stat-icon">👥</span>
+        <div>
+          <div class="stat-num">48k+</div>
+          <div class="stat-label">Members</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">💬</span>
+        <div>
+          <div class="stat-num">12k</div>
+          <div class="stat-label">Conversations</div>
+        </div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">🏆</span>
+        <div>
+          <div class="stat-num">120</div>
+          <div class="stat-label">Challenges</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="forum-list">
+      <div class="forum-item">
+        <div class="forum-info">
+          <p class="forum-title">Morning routines that actually stick</p>
+          <p class="forum-author">by Aanya</p>
+        </div>
+        <span class="forum-replies">42 replies</span>
+      </div>
+      <div class="forum-item">
+        <div class="forum-info">
+          <p class="forum-title">Gentle ways to manage screen fatigue</p>
+          <p class="forum-author">by Devon</p>
+        </div>
+        <span class="forum-replies">28 replies</span>
+      </div>
+      <div class="forum-item">
+        <div class="forum-info">
+          <p class="forum-title">Hydration tips for elders in summer</p>
+          <p class="forum-author">by Priya</p>
+        </div>
+        <span class="forum-replies">17 replies</span>
+      </div>
+      <div class="forum-item">
+        <div class="forum-info">
+          <p class="forum-title">30-day breathing challenge — week 2</p>
+          <p class="forum-author">by Marco</p>
+        </div>
+        <span class="forum-replies">64 replies</span>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
